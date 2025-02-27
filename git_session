@@ -1,0 +1,79 @@
+Script started on 2025-02-27 22:36:06+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="60" LINES="30"]
+[?2004h(base) ]0;hemanth13@TIGER06350: ~[01;32mhemanth13@TIGER06350[00m:[01;34m~[00m$ git --version
+[?2004lgit version 2.34.1
+[?2004h(base) ]0;hemanth13@TIGER06350: ~[01;32mhemanth13@TIGER06350[00m:[01;34m~[00m$ git config --list --show0ori[K[K[K[K-orig in
+[?2004l[?1h=file:/home/hemanth13/.gitconfig user.email=hemanth.dhamodha@[m tigeranalytics.com[m
+file:/home/hemanth13/.gitconfig user.name=HemanthD13[m
+[K[?1l>[?2004h(base) ]0;hemanth13@TIGER06350: ~[01;32mhemanth13@TIGER06350[00m:[01;34m~[00m$ git config --list --show-org[Kig in
+[?2004l[?1h=file:/home/hemanth13/.gitconfig user.email=hemanth.dhamodha@[m tigeranalytics.com[m
+file:/home/hemanth13/.gitconfig user.name=HemanthD13[m
+[K[?1l>[?2004h(base) ]0;hemanth13@TIGER06350: ~[01;32mhemanth13@TIGER06350[00m:[01;34m~[00m$ git config ==[K[K--global init.defa ultBranch main
+[?2004l[?2004h(base) ]0;hemanth13@TIGER06350: ~[01;32mhemanth13@TIGER06350[00m:[01;34m~[00m$ mkdir my_f[Kgit)[K_project
+[?2004l[?2004h(base) ]0;hemanth13@TIGER06350: ~[01;32mhemanth13@TIGER06350[00m:[01;34m~[00m$ cd my_git_project/
+[?2004l[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ git init
+[?2004lInitialized empty Git repository in /home/hemanth13/my_git_project/.git/
+[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ git status
+[?2004lOn branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ echo ""T"h"i"s" "i"s" [A(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C "m"y" "f"i"r"s"t" "G"i"t" "p"r"o"j"e"c"t"!"[C> README.md
+[?2004l[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ git status
+[?2004lOn branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME.md[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ gid ad[K[K[K[Kt add Re[KEADME.md 
+[?2004l[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ GOT S[K[K[K[K[Kgit sttat[K[K[Katus
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README.md[m
+
+[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ got [K[K[Kit commit -m  ""A"d"d" "R"E"A"D"M"E"."m"d" "w"i"t"h" "i"n"i"t"i"a"l" "p"r"o"j"e"c"t" "d"e"s"c"r"i"p"t"i"o"n"[C
+[?2004l[main (root-commit) 4b9c4e2] Add README.md with initial project description
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ git log --onl[Kel ine
+[?2004l[?1h=[33m4b9c4e2[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m Add README.md with initial project de[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[mscription[m
+[K[?1l>[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ git branch fea ture-branch
+[?2004l[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ git checkout f eature-branch 
+[?2004lSwitched to branch 'feature-branch'
+[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ git branch
+[?2004l[?1h=* [32mfeature-branch[m[m
+  main[m[m
+[K[?1l>[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ echo ""T"h"i"s" "p"r" [A(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Co"j"e"c"t" "i"s" "a" "g"[1P"G"i"t" "t"u"t"i"r"[1P"[1P"o"r"a"i"[1P"[1P"i"a"l"[C>>README.md
+[?2004l[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ git add README .md
+[?2004l[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ git commit -m  ""U"p"d"a"t"e" "R"E"A"D"M"E"."m"d" "w"i"t"h" "p"r"o"j"e"c"t" "d"e"a"s"a"[1P"[1P"[1P"s"c"r"i"p"t"i"o"n"[C
+[?2004l[feature-branch fe9ffd7] Update README.md with project description
+ 1 file changed, 1 insertion(+)
+[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ git long --[K[K[K[K[Kg --onel ine
+[?2004l[?1h=[33mfe9ffd7[m[33m ([m[1;36mHEAD -> [m[1;32mfeature-branch[m[33m)[m Update README.md with proje[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[mct description[m
+[33m4b9c4e2[m[33m ([m[1;32mmain[m[33m)[m Add README.md with initial project descriptio[m [33m[m[33m[m[1;32m[m[33m[mn[m
+[K[?1l>[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ goi[K[Kit checout[K[K[Kkoiu[K[Kut m eai[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K m ain
+[?2004lSwitched to branch 'main'
+[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ git merge fr[Keat ure-branch [K
+[?2004lUpdating 4b9c4e2..fe9ffd7
+Fast-forward
+ README.md | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ git long[K[Kg --onel ine
+[?2004l[?1h=[33mfe9ffd7[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;32mfeature-branch[m[33m)[m Update README.md with[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;32m[m[33m[m project description[m
+[33m4b9c4e2[m Add README.md with initial project description[m
+[K[?1l>[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ git status
+[?2004lOn branch main
+nothing to commit, working tree clean
+[?2004h(base) ]0;hemanth13@TIGER06350: ~/my_git_project[01;32mhemanth13@TIGER06350[00m:[01;34m~/my_git_project[00m$ exit
+[?2004lexit
+
+Script done on 2025-02-27 22:46:48+05:30 [COMMAND_EXIT_CODE="0"]
